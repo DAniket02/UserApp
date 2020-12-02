@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <include layout="@layout/custom_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_margin="@dimen/marginplus2"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"/>
+
+            <LinearLayout
+                android:id="@+id/SliderDots"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/marginplus2"
+                android:background="@drawable/rounded_corner_rect">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/marginplus1"
+                    android:layout_margin="1.5dp"
+                    android:gravity="center"
+                    android:background="#d0eced"
+                    android:textColor="@color/toolbar_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/textsizemlarge"
+                    android:text="@string/text_garden_department"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/marginplus2">
+
+                    <ImageView
+                        android:layout_width="175dp"
+                        android:layout_height="175dp"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tree_cutting"
+                        android:layout_margin="@dimen/marginplus1"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/textsizemlarge"
+                        android:text="@string/text_tree_cutting_permission"
+                        android:textAllCaps="true"
+                        android:textColor="#b2773a"
+                        android:layout_gravity="center"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/marginplus1"
+                        android:textSize="@dimen/textsizesmall"
+                        android:text="@string/text_dummy_text"
+                        android:textColor="@color/black_font4"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:id="@+id/button_apply_tree_cutting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_apply_now"
+                        android:textColor="@color/white_color"
+                        android:background="@color/toolbar_color"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/marginplus2"
+                        android:minHeight="40dp"
+                        android:padding="@dimen/marginplus2"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/black_font4"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/marginplus2">
+
+                <ImageView
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"
+                    android:src="@drawable/branches_cutting"
+                    android:layout_margin="@dimen/marginplus1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsizemlarge"
+                    android:text="@string/text_tree_trimming_permission"
+                    android:textAllCaps="true"
+                    android:textColor="#b2773a"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/marginplus1"
+                    android:textSize="@dimen/textsizesmall"
+                    android:text="@string/text_dummy_text"
+                    android:textColor="@color/black_font4"
+                    android:layout_gravity="center"/>
+
+                <Button
+                    android:id="@+id/button_apply_branch_trimming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_apply_now"
+                    android:textColor="@color/white_color"
+                    android:background="@color/toolbar_color"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/marginplus2"
+                    android:minHeight="40dp"
+                    android:padding="@dimen/marginplus2"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

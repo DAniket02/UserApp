@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_action_dashboard_white_24dp"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_my_application"
+        android:icon="@drawable/ic_action_application_white_24dp"
+        android:title="@string/title_my_application" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_action_profile_white_24dp"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_action_setting_white_24dp"
+        android:title="@string/title_setting" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/ic_action_logout_white_24dp"
+        android:title="@string/title_logout" />
+
+</menu>

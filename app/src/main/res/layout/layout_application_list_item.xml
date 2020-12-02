@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/marginplus1"
+    android:layout_margin="@dimen/marginplus2"
+    android:id="@+id/cardview_application">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/marginplus1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/marginplus2">
+
+            <TextView
+                android:id="@+id/textView_applicationId"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/text_appid"
+                android:textSize="@dimen/textsizemextralarge"
+                android:textStyle="bold"
+                android:textColor="@color/toolbar_color"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsizemextralarge"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/toolbar_color"/>
+
+            <Button
+                android:id="@+id/btn_applicationStatus"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:minHeight="25dp"
+                android:textSize="14dp"
+                android:text="@string/status_completed"
+                android:textColor="@color/white_color"
+                android:background="@color/application_completed_green"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/marginplus1"
+            android:layout_marginRight="@dimen/marginplus1"
+            android:layout_marginTop="@dimen/marginplus2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/marginplus1"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="55dp"
+                        android:background="@color/black_font3"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/marginplus2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black_font4"
+                            android:text="@string/text_application"/>
+
+                        <TextView
+                            android:id="@+id/textView_applicationName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black_font4"
+                            android:textSize="@dimen/textsizesmall"
+                            android:textStyle="bold"
+                            android:text="@string/text_trimingofbranches"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/marginplus1"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="55dp"
+                        android:background="@color/black_font3"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/marginplus2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black_font4"
+                            android:text="@string/text_application_date"/>
+
+                        <TextView
+                            android:id="@+id/textView_applicationDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black_font4"
+                            android:textSize="@dimen/textsizesmall"
+                            android:textStyle="bold"
+                            android:text="@string/text_date"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/marginplus1"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="55dp"
+                        android:background="@color/black_font3"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/marginplus2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black_font4"
+                            android:text="@string/text_completed_date"/>
+
+                        <TextView
+                            android:id="@+id/textView_applicationCompletedDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black_font4"
+                            android:textSize="@dimen/textsizesmall"
+                            android:textStyle="bold"
+                            android:text="@string/text_date"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/marginplus3">
+
+            <Button
+                android:id="@+id/btn_applicationDownloadCertificate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:textAllCaps="false"
+                android:paddingLeft="@dimen/marginplus2"
+                android:paddingRight="@dimen/marginplus2"
+                android:text="@string/text_download_certificate"
+                android:textColor="@color/white_color"
+                android:background="@drawable/rounder_corner_fill_rect"/>
+
+            <Button
+                android:id="@+id/btn_applicationViewReceipt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="30dp"
+                android:textAllCaps="false"
+                android:paddingLeft="@dimen/marginplus2"
+                android:paddingRight="@dimen/marginplus2"
+                android:layout_marginLeft="@dimen/marginplus2"
+                android:text="@string/text_view_receipt"
+                android:textColor="@color/white_color"
+                android:background="@drawable/rounder_corner_fill_rect"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+

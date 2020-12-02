@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsizeminismall">11.5dp</dimen>
+    <dimen name="textsizesmall">14sp</dimen>
+    <dimen name="textsizemedium">16sp</dimen>
+    <dimen name="textsizemlarge">18sp</dimen>
+    <dimen name="textsizemextralarge">20sp</dimen>
+    <dimen name="textsizexxl">22sp</dimen>
+    <dimen name="textsizexxxl">24sp</dimen>
+
+    <dimen name="large">36sp</dimen>
+
+    <dimen name="marginplus1">5dp</dimen>
+    <dimen name="marginplus2">10dp</dimen>
+    <dimen name="marginplus3">15dp</dimen>
+    <dimen name="marginplus4">20dp</dimen>
+    <dimen name="marginplus5">25dp</dimen>
+    <dimen name="marginplus6">30dp</dimen>
+    <dimen name="marginplus7">35dp</dimen>
+    <dimen name="marginplus8">40dp</dimen>
+    <dimen name="marginplus9">45dp</dimen>
+    <dimen name="marginplus10">50dp</dimen>
+    <dimen name="marginplus11">55dp</dimen>
+    <dimen name="marginplus12">60dp</dimen>
+    <dimen name="marginplus13">65dp</dimen>
+    <dimen name="marginplus14">70dp</dimen>
+    <dimen name="marginplus15">75dp</dimen>
+    <dimen name="marginplus16">80dp</dimen>
+    <dimen name="marginplus17">85dp</dimen>
+    <dimen name="marginplus18">90dp</dimen>
+    <dimen name="marginplus19">95dp</dimen>
+    <dimen name="marginplus20">100dp</dimen>
+
+    <dimen name="header_height">190dp</dimen>
+    <dimen name="header_nav_user">100dp</dimen>
+
+    <dimen name="house_image">240dp</dimen>
+    <dimen name="imgviewsize">300dp</dimen>
+
+    <dimen name="imgviewheight">200dp</dimen>
+
+    <dimen name="rating_img_dimens">100dp</dimen>
+    <dimen name="imageviewsize">150dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="imageside_margin">10dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

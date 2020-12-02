@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/background"
+    tools:context=".activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/marginplus2">
+
+            <ImageView
+                android:visibility="visible"
+                android:src="@drawable/nmmc_white_logo"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/editText_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/textemail2"
+                android:layout_margin="@dimen/marginplus6"
+                android:minHeight="@dimen/marginplus9"
+                android:paddingLeft="@dimen/marginplus6"
+                android:textColorHint="#99FFFFFF"
+                android:textCursorDrawable="@null"
+                android:background="@drawable/blue_border_bg"
+                android:textColor="@color/white_color"
+                android:inputType="text"/>
+
+
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/textpassword"
+                android:layout_marginLeft="@dimen/marginplus6"
+                android:layout_marginRight="@dimen/marginplus6"
+                android:minHeight="@dimen/marginplus9"
+                android:paddingLeft="@dimen/marginplus6"
+                android:textColorHint="#99FFFFFF"
+                android:textCursorDrawable="@null"
+                android:background="@drawable/blue_border_bg"
+                android:inputType="textPassword"
+                android:textColor="@color/white_color"/>
+
+            <TextView
+                android:id="@+id/textView_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_forgot_password"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/marginplus3"
+                android:layout_marginTop="@dimen/marginplus4"
+                android:layout_marginRight="@dimen/marginplus6"
+                android:layout_gravity="right"/>
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textSignin"
+                android:padding="@dimen/marginplus2"
+                android:textSize="@dimen/textsizemlarge"
+                android:textAllCaps="false"
+                android:textColor="@color/black_color"
+                android:onClick="onViewClicked"
+                android:background="@drawable/white_button_bg"
+                android:layout_margin="@dimen/marginplus6"
+                tools:ignore="OnClick" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="@dimen/marginplus2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_no_account"
+                    android:textColor="@color/white_color"
+                    android:textSize="@dimen/marginplus3"
+                    android:layout_marginRight="@dimen/marginplus1" />
+
+                <TextView
+                    android:id="@+id/textView_sign_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_sign_up"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue_text"
+                    android:textSize="@dimen/marginplus3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
